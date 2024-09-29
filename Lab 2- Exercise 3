@@ -1,0 +1,10 @@
+# Instruction:
+# Generate a hollow square based on the + integer input side length n.
+
+side_length = int(input("Enter the side length of the square: "))
+
+for i in range(side_length):
+    if i == 0 or i == side_length - 1:
+        print('x' * side_length)
+    else:
+        print('x' + ' ' * (side_length - 2) + 'x')
