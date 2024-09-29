@@ -1,0 +1,13 @@
+# Instructions:
+# Compute for the cube of integers. 
+#    Steps:
+#    1. Input the size of the array.
+#    2. input the elements of the array
+#    3. display the cube of each element
+
+size = int(input("Enter the size of the array: "))
+elements = list(map(int, input("Enter the elements separated by space: ").split()))
+
+print("\nCubes of the elements are:")
+for element in elements:
+    print(element ** 3)
